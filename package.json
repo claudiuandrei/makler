@@ -1,6 +1,6 @@
 {
   "name": "makler",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Buffered, multi-topic message broker",
   "keywords": [
     "message bus",
