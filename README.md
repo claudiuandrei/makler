@@ -35,7 +35,7 @@ const chan = topic(broker, ['topic'])
 const context = { test: true }
 
 // Setup a subscriber
-const ubsubscribe = subscribe(broker, (data, topic) => {
+const unsubscribe = subscribe(broker, (data, topic) => {
   console.log(data, topic) // { test: true } ["topic"]
 })
 
